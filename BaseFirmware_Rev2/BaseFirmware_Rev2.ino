@@ -2,8 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <avr/interrupt.h>
 #include "MyTime.h"
-//#include "Buttons.h"
-//#include "SetTime.h"
+
 
 //construct the lcd
 LiquidCrystal_I2C lcd(0x27, 20, 4);
